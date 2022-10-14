@@ -203,7 +203,6 @@ for snd in ['explosion1.wav', 'explosion2.wav']:
 pygame.mixer.music.load(path.join(snd_dir,'tgf.wav'))
 pygame.mixer.music.set_volume(0.1)
 
-
 all_sprites = pygame.sprite.Group()
 mobs = pygame.sprite.Group()
 bullets = pygame.sprite.Group()  
